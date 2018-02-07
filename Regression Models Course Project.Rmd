@@ -66,9 +66,9 @@ ggpairs(data_cars,
        axisLabels = "show", 
         columnLabels = colnames(data_cars))
 
-
-
 ```
+![plot 1](1_corr.PNG) 
+
 
 # 2.2. EDA: Transmission types comparison
 
