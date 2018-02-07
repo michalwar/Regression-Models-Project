@@ -67,8 +67,11 @@ ggpairs(data_cars,
         columnLabels = colnames(data_cars))
 
 ```
+
 ![1_corr](1_corr.png) 
 
+
+![2_corr](2_corr.png) 
 
 # 2.2. EDA: Transmission types comparison
 
@@ -88,6 +91,8 @@ data_cars[, mean(mpg), by = am]
 t.test(auto$mpg, man$mpg)
 
 ```
+
+![1_mpg](1_mpg.png) 
 
 I conclude that at significant level 5% there is no evidence to prove H0 hypothesis that there is no difference between A/M transmission. I accept alternative hypothesis that true difference in means (A/M transmission) is not equal to 0. Nevertheless I conduct further analysis to confirm.
 
@@ -182,6 +187,8 @@ ggplot(data_cars[, c("mpg", "wt", "qsec")],
   ylab("Residuals")
 
 ```
+
+![Res](Res.png) 
 
 # 7. Final model selecting
 
