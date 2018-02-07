@@ -87,7 +87,8 @@ data_cars[, median(mpg), by = am]
 data_cars[, mean(mpg), by = am]
 
 t.test(auto$mpg, man$mpg)
-
+ 
+```
 Welch Two Sample t-test
 
 data:  auto$mpg and man$mpg
@@ -99,8 +100,7 @@ sample estimates:
 mean of x mean of y 
  17.14737  24.39231 
  
-```
-
+ 
 ![1_mpg](1_mpg.png) 
 
 I conclude that at significant level 5% there is no evidence to prove H0 hypothesis that there is no difference between A/M transmission. I accept alternative hypothesis that true difference in means (A/M transmission) is not equal to 0. Nevertheless I conduct further analysis to confirm.
