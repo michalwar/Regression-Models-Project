@@ -15,7 +15,7 @@ Motor Trend is a magazine about the automobile industry. They are looking at a d
 2. Quantify the MPG difference between automatic and manual transmissions
 
 
-```{r, echo=FALSE}
+```{r, echo=TRUE}
 library(data.table)
 library(ggplot2)
 library(GGally)
